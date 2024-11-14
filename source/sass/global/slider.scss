@@ -1,0 +1,38 @@
+.slider {
+    position: relative;
+}
+.slider__track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider__item {
+    flex: 0 0 33.3333%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slider__controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider__button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider__button--prev {
+    left: 10px;
+}
+
+.slider__button--next {
+    right: 10px;
+}

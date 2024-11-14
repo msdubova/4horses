@@ -8,53 +8,54 @@
         <title>Международный васюкинский турнир</title>
         <link
             rel="preload"
-            href="golos-text_regular.woff2"
+            href="fonts/golos-text_regular.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
         <link
             rel="preload"
-            href="golos-text_medium.woff2"
+            href="fonts/golos-text_medium.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
         <link
             rel="preload"
-            href="golos-text_demibold.woff2"
+            href="fonts/golos-text_demibold.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
         <link
             rel="preload"
-            href="golos-text_bold.woff2"
+            href="fonts/golos-text_bold.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
         <link
             rel="preload"
-            href="fonts/montserrat_medium.woff2"
+            href="fonts/Montserrat-Medium.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
         <link
             rel="preload"
-            href="fonts/merriweather_bold.woff2"
+            href="fonts/merriweather-bold.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
         <link
             rel="preload"
-            href="fonts/merriweather_medium.woff2"
+            href="fonts/merriweather-regular.woff2"
             as="font"
             type="font/woff2"
             crossorigin
         />
+        <link rel="stylesheet" href="css/style.min.css" />
     </head>
     <body class="page__body">
         <h1 class="visually-hidden">Клуб четырех коней</h1>
@@ -64,11 +65,17 @@
             <div class="container">
                 <header class="intro__header">
                     <div class="logo">
-                        <img
-                            src="logo.png"
-                            alt="2222 клуб четырех коней"
-                            class="logo__image"
-                        />
+                        <svg
+                            width="245"
+                            height="36"
+                            role="img"
+                            alt="Шахматная лекция"
+                            class="event__image"
+                        >
+                            <use
+                                xlink:href="img/sprite/sprite_auto.svg#logo"
+                            ></use>
+                        </svg>
                     </div>
                 </header>
                 <div class="intro__content">
@@ -118,11 +125,17 @@
                             >
                         </h4>
 
-                        <img
-                            src="chess-lecture.jpg"
+                        <svg
+                            width="245"
+                            height="36"
+                            role="img"
                             alt="Шахматная лекция"
                             class="event__image"
-                        />
+                        >
+                            <use
+                                xlink:href="img/sprite/sprite_auto.svg#logo"
+                            ></use>
+                        </svg>
                     </div>
                     <div class="event__details">
                         <img
@@ -214,7 +227,7 @@
 
         <!-- Этапы преображения васюков -->
         <section class="stages">
-            <div class="stages__container">
+            <div class="stages__container container">
                 <div class="stages__header">
                     <h3 class="stages__title">ЭТАПЫ ПРЕОБРАЖЕНИЯ ВАСЮКОВ</h3>
                     <p class="stages__subtitle">
@@ -326,14 +339,26 @@
                     <div class="slider__track">
                         <div class="slider__item">
                             <div class="participant-card">
-                                <div class="participant-card__image"></div>
+                                <div class="participant-card__image">
+                                    <svg
+                                        width="320"
+                                        height="320"
+                                        role="img"
+                                        alt="Шахматная лекция"
+                                        class="event__image"
+                                    >
+                                        <use
+                                            xlink:href="img/sprite/sprite_auto.svg#user"
+                                        ></use>
+                                    </svg>
+                                </div>
                                 <h5 class="participant-card__name">
                                     Хозе-Рауль Капабланка
                                 </h5>
                                 <p class="participant-card__title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button">
+                                <button class="participant-card__button button">
                                     Подробнее
                                 </button>
                             </div>
@@ -341,70 +366,134 @@
 
                         <div class="slider__item">
                             <div class="participant-card">
-                                <div class="participant-card__image"></div>
+                                <div class="participant-card__image">
+                                    <svg
+                                        width="320"
+                                        height="320"
+                                        role="img"
+                                        alt="Шахматная лекция"
+                                        class="event__image"
+                                    >
+                                        <use
+                                            xlink:href="img/sprite/sprite_auto.svg#user"
+                                        ></use>
+                                    </svg>
+                                </div>
                                 <h5 class="participant-card__name">
                                     Эммануил Ласкер
                                 </h5>
                                 <p class="participant-card__title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button">
+                                <button class="participant-card__button button">
                                     Подробнее
                                 </button>
                             </div>
                         </div>
+
                         <div class="slider__item">
                             <div class="participant-card">
-                                <div class="participant-card__image"></div>
+                                <div class="participant-card__image">
+                                    <svg
+                                        width="320"
+                                        height="320"
+                                        role="img"
+                                        alt="Шахматная лекция"
+                                        class="event__image"
+                                    >
+                                        <use
+                                            xlink:href="img/sprite/sprite_auto.svg#user"
+                                        ></use>
+                                    </svg>
+                                </div>
                                 <h5 class="participant-card__name">
                                     Александр Алехин
                                 </h5>
                                 <p class="participant-card__title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button">
+                                <button class="participant-card__button button">
                                     Подробнее
                                 </button>
                             </div>
                         </div>
+
                         <div class="slider__item">
                             <div class="participant-card">
-                                <div class="participant-card__image"></div>
+                                <div class="participant-card__image">
+                                    <svg
+                                        width="320"
+                                        height="320"
+                                        role="img"
+                                        alt="Шахматная лекция"
+                                        class="event__image"
+                                    >
+                                        <use
+                                            xlink:href="img/sprite/sprite_auto.svg#user"
+                                        ></use>
+                                    </svg>
+                                </div>
                                 <h5 class="participant-card__name">
                                     Арон Нимцович
                                 </h5>
                                 <p class="participant-card__title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button">
+                                <button class="participant-card__button button">
                                     Подробнее
                                 </button>
                             </div>
                         </div>
+
                         <div class="slider__item">
                             <div class="participant-card">
-                                <div class="participant-card__image"></div>
+                                <div class="participant-card__image">
+                                    <svg
+                                        width="320"
+                                        height="320"
+                                        role="img"
+                                        alt="Шахматная лекция"
+                                        class="event__image"
+                                    >
+                                        <use
+                                            xlink:href="img/sprite/sprite_auto.svg#user"
+                                        ></use>
+                                    </svg>
+                                </div>
                                 <h5 class="participant-card__name">
                                     Рихард Рети
                                 </h5>
                                 <p class="participant-card__title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button">
+                                <button class="participant-card__button button">
                                     Подробнее
                                 </button>
                             </div>
                         </div>
+
                         <div class="slider__item">
                             <div class="participant-card">
-                                <div class="participant-card__image"></div>
+                                <div class="participant-card__image">
+                                    <svg
+                                        width="320"
+                                        height="320"
+                                        role="img"
+                                        alt="Шахматная лекция"
+                                        class="event__image"
+                                    >
+                                        <use
+                                            xlink:href="img/sprite/sprite_auto.svg#user"
+                                        ></use>
+                                    </svg>
+                                </div>
                                 <h5 class="participant-card__name">
                                     Остап Бендер
                                 </h5>
                                 <p class="participant-card__title">
                                     Гроссмейстер
                                 </p>
-                                <button class="participant-card__button">
+                                <button class="participant-card__button button">
                                     Подробнее
                                 </button>
                             </div>
@@ -449,5 +538,6 @@
                 </p>
             </div>
         </footer>
+        <script src="js/main.min.js"></script>
     </body>
 </html>

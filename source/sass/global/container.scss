@@ -1,0 +1,17 @@
+.container {
+    padding: $container-padding-mobile;
+    max-width: $container-max-width;
+    margin: 0 auto;
+
+    @media (min-width: $breakpoint-tablet) {
+        padding: $container-padding-desktop;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+        padding: $container-padding-desktop;
+    }
+
+    @media (min-width: $breakpoint-large) {
+        padding: $container-padding-desktop;
+    }
+}

@@ -1,0 +1,27 @@
+.ticker {
+    background-color: $accent-color;
+    color: $white-color;
+    overflow: hidden;
+    position: relative;
+    z-index: $z-index-ticker;
+
+    &__wrapper {
+        white-space: nowrap;
+        animation: ticker 20s linear infinite;
+    }
+
+    &__text {
+        display: inline-block;
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
