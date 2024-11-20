@@ -4,7 +4,13 @@
     overflow: hidden;
     position: relative;
     z-index: $z-index-ticker;
-
+    text-transform: uppercase;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    &--upper {
+        margin-bottom: 36px;
+    }
     &__wrapper {
         white-space: nowrap;
         animation: ticker 20s linear infinite;
@@ -12,8 +18,9 @@
 
     &__text {
         display: inline-block;
-        padding: 12px 0;
-        font-size: 1rem;
+
+        font-size: 22px;
+        line-height: 22px;
     }
 }
 

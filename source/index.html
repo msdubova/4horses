@@ -70,7 +70,6 @@
                             height="36"
                             role="img"
                             alt="Шахматная лекция"
-                            class="event__image"
                         >
                             <use
                                 xlink:href="img/sprite/sprite_auto.svg#logo"
@@ -79,36 +78,45 @@
                     </div>
                 </header>
                 <div class="intro__content">
-                    <h2 class="intro__title">
-                        ПРЕВРАТИТЕ УЕЗДНЫЙ ГОРОД В СТОЛИЦУ ЗЕМНОГО ШАРА
-                    </h2>
-                    <p class="intro__subtitle">
-                        Оплатите взнос на телеграммы для организации
-                        Международного васюкинского турнира по шахматам
-                    </p>
-                    <div class="intro__buttons">
-                        <a href="#support" class="button button--primary"
-                            >Поддержать шахматную мысль</a
-                        >
-                        <a href="#details" class="button button--secondary"
-                            >Подробнее о турнире</a
-                        >
+                    <div class="intro__text">
+                        <h2 class="intro__title">
+                            <span>ПРЕВРАТИТЕ <br />УЕЗДНЫЙ ГОРОД</span>
+                            <span>
+                                В СТОЛИЦУ<br />
+                                ЗЕМНОГО ШАРА
+                            </span>
+                        </h2>
+                        <p class="intro__subtitle">
+                            Оплатите взнос на телеграммы для организации<br />
+                            Международного васюкинского турнира по шахматам
+                        </p>
+                        <div class="intro__buttons">
+                            <a
+                                href="#support"
+                                class="button intro__button intro__button--primary"
+                                >Поддержать <br />
+                                шахматную мысль</a
+                            >
+                            <a
+                                href="#details"
+                                class="button intro__button intro__button--secondary"
+                                >Подробнее<br />о турнире</a
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Бегущая строка -->
-            <div class="ticker">
-                <div class="ticker__wrapper">
-                    <p class="ticker__text">
-                        Дело помощи утопающим — дело рук самих утопающих! •
-                        Шахматы двигают вперед не только культуру, но и
-                        экономику! • Лед тронулся, господа присяжные заседатели!
-                        •
-                    </p>
-                </div>
-            </div>
         </section>
-
+        <div class="ticker ticker--upper">
+            <div class="ticker__wrapper">
+                <p class="ticker__text">
+                    Дело помощи утопающим — дело рук самих утопающих! • Шахматы
+                    двигают вперед не только культуру, но и экономику! • Лед
+                    тронулся, господа присяжные заседатели! •
+                </p>
+            </div>
+        </div>
         <!-- Детали мероприятия -->
         <section class="event" id="details">
             <div class="container">
@@ -118,108 +126,251 @@
                     </h3>
                     <div class="event__description">
                         <h4 class="event__title">
-                            ЧТОБЫ ПОДДЕРЖАТЬ МЕЖДУНАРОДНЫЙ ВАСЮКИНСКИЙ ТУРНИР
-                            ПОСЕТИТЕ ЛЕКЦИЮ НА ТЕМУ:<span
+                            ЧТОБЫ ПОДДЕРЖАТЬ<br />МЕЖДУНАРОДНЫЙ ВАСЮКИНСКИЙ
+                            ТУРНИР ПОСЕТИТЕ ЛЕКЦИЮ НА&nbsp;ТЕМУ :<span
                                 class="event__title--red"
                                 >«ПЛОДОТВОРНАЯ ДЕБЮТНАЯ ИДЕЯ»</span
                             >
                         </h4>
+                        <div class="event__image">
+                            <picture>
+                                <!-- Mobile: 1x 375x313; 2x 750x626 -->
+                                <source
+                                    type="image/webp"
+                                    media="(max-width: 375px)"
+                                    srcset="
+                                        img/event_img_1_2x.webp 2x,
+                                        img/event_img_1_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    media="(max-width: 375px)"
+                                    srcset="
+                                        img/event_img_1_2x.png 2x,
+                                        img/event_img_1_1x.png 1x
+                                    "
+                                />
 
-                        <svg
-                            width="245"
-                            height="36"
-                            role="img"
-                            alt="Шахматная лекция"
-                            class="event__image"
-                        >
-                            <use
-                                xlink:href="img/sprite/sprite_auto.svg#logo"
-                            ></use>
-                        </svg>
+                                <!-- Tablet: 1x 768x345; 2x 1536x690 -->
+                                <source
+                                    type="image/webp"
+                                    media="(max-width: 768px)"
+                                    srcset="
+                                        img/event_img_1_2x.webp 2x,
+                                        img/event_img_1_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    media="(max-width: 768px)"
+                                    srcset="
+                                        img/event_img_1_2x.png 2x,
+                                        img/event_img_1_1x.png 1x
+                                    "
+                                />
+
+                                <!-- Desktop: 1x 1366x401; 2x 2732x802 -->
+                                <source
+                                    type="image/webp"
+                                    media="(max-width: 1366px)"
+                                    srcset="
+                                        img/event_img_1_2x.webp 2x,
+                                        img/event_img_1_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    media="(max-width: 1366px)"
+                                    srcset="
+                                        img/event_img_1_2x.png 2x,
+                                        img/event_img_1_1x.png 1x
+                                    "
+                                />
+
+                                <!-- Large: 1x 1920x400; 2x 3840x800 -->
+                                <source
+                                    type="image/webp"
+                                    srcset="
+                                        img/event_img_1_2x.webp 2x,
+                                        img/event_img_1_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    srcset="
+                                        img/event_img_1_2x.png 2x,
+                                        img/event_img_1_1x.png 1x
+                                    "
+                                />
+
+                                <img
+                                    loading="lazy"
+                                    width="660"
+                                    height="400"
+                                    src="img/event_img_1_1x.png"
+                                    srcset="img/event_img_1_2x.png 2x"
+                                    alt="Изображение события"
+                                />
+                            </picture>
+                        </div>
                     </div>
                     <div class="event__details">
-                        <img
-                            src="chess-lecture.jpg"
-                            alt="Шахматная лекция"
-                            class="event__image"
-                        />
-                        <h4 class="event__subtitle">
-                            И СЕАНС
-                            <span class="event__title--red"
-                                >ОДНОВРЕМЕННОЙ ИГРЫ В ШАХМАТЫ НА 160
-                                ДОСКАХ</span
-                            >
-                            ГРОССМЕЙСТЕРА О. БЕНДЕРА
-                        </h4>
-                        <table class="event__table">
-                            <tbody class="event__table-body">
-                                <tr class="event__table-row">
-                                    <td
-                                        class="event__table-cell event__table-cell--label"
-                                    >
-                                        Место проведения:
-                                    </td>
-                                    <td
-                                        class="event__table-cell event__table-cell--value"
-                                    >
-                                        Клуб «Картонажник»
-                                    </td>
-                                </tr>
-                                <tr class="event__table-row">
-                                    <td
-                                        class="event__table-cell event__table-cell--label"
-                                    >
-                                        Дата и время мероприятия:
-                                    </td>
-                                    <td
-                                        class="event__table-cell event__table-cell--value"
-                                    >
-                                        22 июня 1927 г. в 18:00
-                                    </td>
-                                </tr>
-                                <tr class="event__table-row">
-                                    <td
-                                        class="event__table-cell event__table-cell--label"
-                                    >
-                                        Стоимость входных билетов:
-                                    </td>
-                                    <td
-                                        class="event__table-cell event__table-cell--value"
-                                    >
-                                        20 коп.
-                                    </td>
-                                </tr>
-                                <tr class="event__table-row">
-                                    <td
-                                        class="event__table-cell event__table-cell--label"
-                                    >
-                                        Плата за игру:
-                                    </td>
-                                    <td
-                                        class="event__table-cell event__table-cell--value"
-                                    >
-                                        50 коп.
-                                    </td>
-                                </tr>
-                                <tr class="event__table-row">
-                                    <td
-                                        class="event__table-cell event__table-cell--label"
-                                    >
-                                        Взнос на телеграмму:
-                                    </td>
-                                    <td
-                                        class="event__table-cell event__table-cell--value"
-                                    >
-                                        <span class="crossed">100 руб. </span>21
-                                        руб. 16 коп.
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p class="event__link">
-                            По всем вопросам обращаться в администрацию
-                            к К. Михельсону
-                        </p>
+                        <div class="event__image">
+                            <picture>
+                                <!-- Mobile: 1x 375x313; 2x 750x626 -->
+                                <source
+                                    type="image/webp"
+                                    media="(max-width: 375px)"
+                                    srcset="
+                                        img/event_img_2_2x.webp 2x,
+                                        img/event_img_2_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    media="(max-width: 375px)"
+                                    srcset="
+                                        img/event_img_2_2x.png 2x,
+                                        img/event_img_2_1x.png 1x
+                                    "
+                                />
+
+                                <!-- Tablet: 1x 768x345; 2x 1536x690 -->
+                                <source
+                                    type="image/webp"
+                                    media="(max-width: 768px)"
+                                    srcset="
+                                        img/event_img_2_2x.webp 2x,
+                                        img/event_img_2_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    media="(max-width: 768px)"
+                                    srcset="
+                                        img/event_img_2_2x.png 2x,
+                                        img/event_img_2_1x.png 1x
+                                    "
+                                />
+
+                                <!-- Desktop: 1x 1366x401; 2x 2732x802 -->
+                                <source
+                                    type="image/webp"
+                                    media="(max-width: 1366px)"
+                                    srcset="
+                                        img/event_img_2_2x.webp 2x,
+                                        img/event_img_2_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    media="(max-width: 1366px)"
+                                    srcset="
+                                        img/event_img_2_2x.png 2x,
+                                        img/event_img_2_1x.png 1x
+                                    "
+                                />
+
+                                <!-- Large: 1x 1920x400; 2x 3840x800 -->
+                                <source
+                                    type="image/webp"
+                                    srcset="
+                                        img/event_img_2_2x.webp 2x,
+                                        img/event_img_2_1x.webp 1x
+                                    "
+                                />
+                                <source
+                                    srcset="
+                                        img/event_img_2_2x.png 2x,
+                                        img/event_img_2_1x.png 1x
+                                    "
+                                />
+
+                                <img
+                                    loading="lazy"
+                                    width="660"
+                                    height="400"
+                                    src="img/event_img_2_1x.png"
+                                    srcset="img/event_img_2_2x.png 2x"
+                                    alt="Изображение события"
+                                />
+                            </picture>
+                        </div>
+                        <div>
+                            <h4 class="event__title">
+                                И СЕАНС
+                                <span class="event__title--red"
+                                    >ОДНОВРЕМЕННОЙ ИГРЫ В&nbsp;ШАХМАТЫ НА 160
+                                    ДОСКАХ</span
+                                >
+                                ГРОССМЕЙСТЕРА О. БЕНДЕРА
+                            </h4>
+                            <table class="event__table">
+                                <tbody class="event__table-body">
+                                    <tr class="event__table-row">
+                                        <td
+                                            class="event__table-cell event__table-cell--label"
+                                        >
+                                            Место проведения:
+                                        </td>
+                                        <td
+                                            class="event__table-cell event__table-cell--value"
+                                        >
+                                            Клуб «Картонажник»
+                                        </td>
+                                    </tr>
+                                    <tr class="event__table-row">
+                                        <td
+                                            class="event__table-cell event__table-cell--label"
+                                        >
+                                            Дата и время мероприятия:
+                                        </td>
+                                        <td
+                                            class="event__table-cell event__table-cell--value"
+                                        >
+                                            22 июня 1927 г. в 18:00
+                                        </td>
+                                    </tr>
+                                    <tr class="event__table-row">
+                                        <td
+                                            class="event__table-cell event__table-cell--label"
+                                        >
+                                            Стоимость входных билетов:
+                                        </td>
+                                        <td
+                                            class="event__table-cell event__table-cell--value"
+                                        >
+                                            20 коп.
+                                        </td>
+                                    </tr>
+                                    <tr class="event__table-row">
+                                        <td
+                                            class="event__table-cell event__table-cell--label"
+                                        >
+                                            Плата за игру:
+                                        </td>
+                                        <td
+                                            class="event__table-cell event__table-cell--value"
+                                        >
+                                            50 коп.
+                                        </td>
+                                    </tr>
+                                    <tr class="event__table-row">
+                                        <td
+                                            class="event__table-cell event__table-cell--label"
+                                        >
+                                            Взнос на телеграмму:
+                                        </td>
+                                        <td
+                                            class="event__table-cell event__table-cell--value"
+                                        >
+                                            <span class="crossed"
+                                                >100 руб.
+                                            </span>
+                                            21 руб. 16 коп.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="event__link">
+                                По всем вопросам обращаться в администрацию
+                                к К. Михельсону
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -229,46 +380,40 @@
         <section class="stages">
             <div class="stages__container container">
                 <div class="stages__header">
-                    <h3 class="stages__title">ЭТАПЫ ПРЕОБРАЖЕНИЯ ВАСЮКОВ</h3>
-                    <p class="stages__subtitle">
-                        Будущие источники обогащения васюкинцев
-                    </p>
-                    <div class="stages__plane-image">
-                        <img
-                            src="plane.svg"
-                            alt="Самолет"
-                            class="stages__plane"
-                        />
-                    </div>
+                    <h3 class="stages__title">
+                        ЭТАПЫ ПРЕОБРАЖЕНИЯ ВАСЮКОВ
+                        <span class="stages__subtitle">
+                            Будущие источники<br />обогащения васюкинцев
+                        </span>
+                    </h3>
                 </div>
 
-                <div class="stages__slider swiper">
-                    <div class="stages__slider-wrapper swiper-wrapper">
+                <div class="stages__slider">
+                    <div class="stages__slider-wrapper">
                         <!-- Слайд 1-2 (сгруппированный) -->
-                        <div class="stages__slide swiper-slide">
-                            <div class="stages__slide-group">
-                                <div class="stage-card">
-                                    <span class="stage-card__number">1</span>
-                                    <p class="stage-card__text">
-                                        Строительство железнодорожной магистрали
-                                        Москва-Васюки
-                                    </p>
-                                </div>
-                                <div class="stage-card">
-                                    <span class="stage-card__number">2</span>
-                                    <p class="stage-card__text">
-                                        Открытие фешенебельной гостиницы
-                                        «Проходная пешка» и других небоскрёбов
-                                    </p>
-                                </div>
+
+                        <div class="stages__slide-group">
+                            <div class="stage-card">
+                                <span class="stage-card__number">1</span>
+                                <p class="stage-card__text">
+                                    Строительство железнодорожной магистрали
+                                    Москва-Васюки
+                                </p>
+                            </div>
+                            <div class="stage-card">
+                                <span class="stage-card__number">2</span>
+                                <p class="stage-card__text">
+                                    Открытие фешенебельной гостиницы «Проходная
+                                    пешка» и других небоскрёбов
+                                </p>
                             </div>
                         </div>
 
                         <!-- Слайд 3 -->
-                        <div class="stages__slide swiper-slide">
+                        <div class="stages__slide">
                             <div class="stages__slide-group">
-                                <div class="stage-card">
-                                    <span class="stage-card__number">7</span>
+                                <div class="stage-card stage-card--large">
+                                    <span class="stage-card__number">3</span>
                                     <p class="stage-card__text">
                                         Поднятие сельского хозяйства в радиусе
                                         на тысячу километров: производство
@@ -279,28 +424,28 @@
                         </div>
 
                         <!-- Слайд 4-5 (сгруппированный) -->
-                        <div class="stages__slide swiper-slide">
-                            <div class="stages__slide-group">
-                                <div class="stage-card">
-                                    <span class="stage-card__number">5</span>
-                                    <p class="stage-card__text">
-                                        Строительство дворца для турнира
-                                    </p>
-                                </div>
-                                <div class="stage-card">
-                                    <span class="stage-card__number">6</span>
-                                    <p class="stage-card__text">
-                                        Размещение гаражей для гостевого
-                                        автотранспорта
-                                    </p>
-                                </div>
+
+                        <div class="stages__slide-group">
+                            <div class="stage-card">
+                                <span class="stage-card__number">4</span>
+                                <p class="stage-card__text">
+                                    Строительство дворца для турнира
+                                </p>
+                            </div>
+                            <div class="stage-card">
+                                <span class="stage-card__number">5</span>
+                                <p class="stage-card__text">
+                                    Размещение гаражей для гостевого
+                                    автотранспорта
+                                </p>
                             </div>
                         </div>
+
                         <!-- Слайд 6 -->
-                        <div class="stages__slide swiper-slide">
+                        <div class="stages__slide">
                             <div class="stages__slide-group">
                                 <div class="stage-card">
-                                    <span class="stage-card__number">7</span>
+                                    <span class="stage-card__number">6</span>
                                     <p class="stage-card__text">
                                         Постройка сверхмощной радиостанции
                                         для передачи всему миру сенсационных
@@ -310,7 +455,7 @@
                             </div>
                         </div>
                         <!-- Слайд 7 -->
-                        <div class="stages__slide swiper-slide">
+                        <div class="stages__slide">
                             <div class="stages__slide-group">
                                 <div class="stage-card">
                                     <span class="stage-card__number">7</span>

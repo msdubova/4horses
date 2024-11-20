@@ -61,5 +61,21 @@
 
 .page h2,
 h3 {
-    font-family: $font-secondary;
+}
+
+.page h2 {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+    font-weight: $font-weight-regular;
+    font-family: $font-primary;
+}
+
+.page img {
+    width: 100%;
+    height: auto;
+}
+.page * {
+    box-sizing: border-box;
 }

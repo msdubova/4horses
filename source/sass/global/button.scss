@@ -2,29 +2,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 32px;
-    border-radius: 4px;
+    padding: 13px 32px 15px;
+    border-radius: 66px;
     font-weight: $font-weight-medium;
     text-decoration: none;
     transition: $transition-default;
-
-    &--primary {
-        background-color: $primary-color;
-        color: $white-color;
-
-        &:hover {
-            background-color: red;
-        }
-    }
-
-    &--secondary {
-        background-color: $white-color;
-        color: $primary-color;
-        border: 2px solid $primary-color;
-
-        &:hover {
-            background-color: $primary-color;
-            color: $white-color;
-        }
-    }
+    text-align: center;
+    line-height: 20px;
 }
