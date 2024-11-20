@@ -7,6 +7,7 @@ $white-color: #ffffff;
 $black-color: #000000;
 $link-color: #3057a2;
 $table-color: #d0d0d0;
+$hover-color: #fbce51;
 
 // Typography
 $font-primary: "Merriweather", Georgia, "Times New Roman", serif;
@@ -21,11 +22,12 @@ $letter-spacing-basic: 0;
 // Breakpoints
 $breakpoint-mobile: 375px;
 $breakpoint-tablet: 768px;
+$breakpoint-slider: 1200px;
 $breakpoint-desktop: 1366px;
 $breakpoint-large: 1920px;
 
 // Container
-$container-padding-mobile: 20px;
+$container-padding-mobile: 18px 20px;
 $container-padding-desktop: 26px 72px;
 $container-max-width: 1366px;
 

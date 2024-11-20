@@ -60,11 +60,11 @@
     <body class="page__body">
         <h1 class="visually-hidden">Клуб четырех коней</h1>
 
-        <!-- Интро -->
+
         <section class="intro">
             <div class="container">
                 <header class="intro__header">
-                    <div class="logo">
+                    <div class="intro__logo">
                         <svg
                             width="245"
                             height="36"
@@ -100,13 +100,14 @@
                             <a
                                 href="#details"
                                 class="button intro__button intro__button--secondary"
-                                >Подробнее<br />о турнире</a
+                                >Подробнее<br />
+                                о турнире</a
                             >
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Бегущая строка -->
+
         </section>
         <div class="ticker ticker--upper">
             <div class="ticker__wrapper">
@@ -117,7 +118,7 @@
                 </p>
             </div>
         </div>
-        <!-- Детали мероприятия -->
+
         <section class="event" id="details">
             <div class="container">
                 <div class="event__info">
@@ -126,11 +127,14 @@
                     </h3>
                     <div class="event__description">
                         <h4 class="event__title">
-                            ЧТОБЫ ПОДДЕРЖАТЬ<br />МЕЖДУНАРОДНЫЙ ВАСЮКИНСКИЙ
-                            ТУРНИР ПОСЕТИТЕ ЛЕКЦИЮ НА&nbsp;ТЕМУ :<span
-                                class="event__title--red"
-                                >«ПЛОДОТВОРНАЯ ДЕБЮТНАЯ ИДЕЯ»</span
-                            >
+                            ЧТОБЫ ПОДДЕРЖАТЬ<br />
+                            МЕЖДУНАРОДНЫЙ ВАСЮКИНСКИЙ ТУРНИР
+                            <spanc class="event__title--mobile">
+                                ПОСЕТИТЕ ЛЕКЦИЮ НА&nbsp;ТЕМУ&nbsp;:<br /><span
+                                    class="event__title--red"
+                                    >«ПЛОДОТВОРНАЯ ДЕБЮТНАЯ ИДЕЯ»</span
+                                >
+                            </span>
                         </h4>
                         <div class="event__image">
                             <picture>
@@ -212,7 +216,7 @@
                         </div>
                     </div>
                     <div class="event__details">
-                        <div class="event__image">
+                        <div class="event__image event__image--2">
                             <picture>
                                 <!-- Mobile: 1x 375x313; 2x 750x626 -->
                                 <source
@@ -282,8 +286,8 @@
 
                                 <img
                                     loading="lazy"
-                                    width="660"
-                                    height="400"
+                                    width="529"
+                                    height="527"
                                     src="img/event_img_2_1x.png"
                                     srcset="img/event_img_2_2x.png 2x"
                                     alt="Изображение события"
@@ -376,7 +380,7 @@
             </div>
         </section>
 
-        <!-- Этапы преображения васюков -->
+
         <section class="stages">
             <div class="stages__container container">
                 <div class="stages__header">
@@ -390,7 +394,7 @@
 
                 <div class="stages__slider">
                     <div class="grid__wrapper">
-                        <!-- Слайд 1-2 (сгруппированный) -->
+
 
                         <div
                             class="stages__slide-group grid__card grid__card--1"
@@ -411,7 +415,7 @@
                             </div>
                         </div>
 
-                        <!-- Слайд 3 -->
+
                         <div class="stages__slide grid__card grid__card--2">
                             <div class="stage__card">
                                 <span class="stage__card-number">3</span>
@@ -423,7 +427,7 @@
                             </div>
                         </div>
 
-                        <!-- Слайд 4-5 (сгруппированный) -->
+
 
                         <div
                             class="stages__slide-group grid__card grid__card--3"
@@ -443,7 +447,7 @@
                             </div>
                         </div>
 
-                        <!-- Слайд 6 -->
+
                         <div class="stages__slide grid__card grid__card--4">
                             <div class="stage__card">
                                 <span class="stage__card-number">6</span>
@@ -454,7 +458,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!-- Слайд 7 -->
+
                         <div class="stages__slide grid__card grid__card--5">
                             <div class="stage__card">
                                 <span class="stage__card-number">7</span>
@@ -473,7 +477,7 @@
             </div>
         </section>
 
-        <!-- Участники турнира -->
+
         <section class="participants">
             <div class="participants__container container">
                 <h3 class="participants__title">УЧАСТНИКИ ТУРНИРА</h3>
@@ -481,8 +485,8 @@
                 <div class="participants__slider slider">
                     <div class="slider__track">
                         <div class="slider__item">
-                            <div class="participant-card">
-                                <div class="participant-card__image">
+                            <div class="participant__card">
+                                <div class="participant__card--image">
                                     <svg
                                         width="320"
                                         height="320"
@@ -495,21 +499,23 @@
                                         ></use>
                                     </svg>
                                 </div>
-                                <h5 class="participant-card__name">
+                                <h5 class="participant__card--name">
                                     Хозе-Рауль Капабланка
                                 </h5>
-                                <p class="participant-card__title">
+                                <p class="participant__card--title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button button">
+                                <button
+                                    class="participant__card--button button"
+                                >
                                     Подробнее
                                 </button>
                             </div>
                         </div>
 
                         <div class="slider__item">
-                            <div class="participant-card">
-                                <div class="participant-card__image">
+                            <div class="participant__card">
+                                <div class="participant__card--image">
                                     <svg
                                         width="320"
                                         height="320"
@@ -522,21 +528,23 @@
                                         ></use>
                                     </svg>
                                 </div>
-                                <h5 class="participant-card__name">
+                                <h5 class="participant__card--name">
                                     Эммануил Ласкер
                                 </h5>
-                                <p class="participant-card__title">
+                                <p class="participant__card--title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button button">
+                                <button
+                                    class="participant__card--button button"
+                                >
                                     Подробнее
                                 </button>
                             </div>
                         </div>
 
                         <div class="slider__item">
-                            <div class="participant-card">
-                                <div class="participant-card__image">
+                            <div class="participant__card">
+                                <div class="participant__card--image">
                                     <svg
                                         width="320"
                                         height="320"
@@ -549,21 +557,23 @@
                                         ></use>
                                     </svg>
                                 </div>
-                                <h5 class="participant-card__name">
+                                <h5 class="participant__card--name">
                                     Александр Алехин
                                 </h5>
-                                <p class="participant-card__title">
+                                <p class="participant__card--title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button button">
+                                <button
+                                    class="participant__card--button button"
+                                >
                                     Подробнее
                                 </button>
                             </div>
                         </div>
 
                         <div class="slider__item">
-                            <div class="participant-card">
-                                <div class="participant-card__image">
+                            <div class="participant__card">
+                                <div class="participant__card--image">
                                     <svg
                                         width="320"
                                         height="320"
@@ -576,21 +586,23 @@
                                         ></use>
                                     </svg>
                                 </div>
-                                <h5 class="participant-card__name">
+                                <h5 class="participant__card--name">
                                     Арон Нимцович
                                 </h5>
-                                <p class="participant-card__title">
+                                <p class="participant__card--title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button button">
+                                <button
+                                    class="participant__card--button button"
+                                >
                                     Подробнее
                                 </button>
                             </div>
                         </div>
 
                         <div class="slider__item">
-                            <div class="participant-card">
-                                <div class="participant-card__image">
+                            <div class="participant__card">
+                                <div class="participant__card--image">
                                     <svg
                                         width="320"
                                         height="320"
@@ -603,21 +615,23 @@
                                         ></use>
                                     </svg>
                                 </div>
-                                <h5 class="participant-card__name">
+                                <h5 class="participant__card--name">
                                     Рихард Рети
                                 </h5>
-                                <p class="participant-card__title">
+                                <p class="participant__card--title">
                                     Чемпион мира по шахматам
                                 </p>
-                                <button class="participant-card__button button">
+                                <button
+                                    class="participant__card--button button"
+                                >
                                     Подробнее
                                 </button>
                             </div>
                         </div>
 
                         <div class="slider__item">
-                            <div class="participant-card">
-                                <div class="participant-card__image">
+                            <div class="participant__card">
+                                <div class="participant__card--image">
                                     <svg
                                         width="320"
                                         height="320"
@@ -630,13 +644,15 @@
                                         ></use>
                                     </svg>
                                 </div>
-                                <h5 class="participant-card__name">
+                                <h5 class="participant__card--name">
                                     Остап Бендер
                                 </h5>
-                                <p class="participant-card__title">
+                                <p class="participant__card--title">
                                     Гроссмейстер
                                 </p>
-                                <button class="participant-card__button button">
+                                <button
+                                    class="participant__card--button button"
+                                >
                                     Подробнее
                                 </button>
                             </div>
@@ -649,6 +665,7 @@
                         >
                             Предыдущий
                         </button>
+                        <span class="slider__pagination">X/6</span>
                         <button
                             class="slider__button slider__button--next"
                             type="button"
@@ -661,7 +678,7 @@
         </section>
 
         <footer class="footer">
-            <!-- Бегущая строка -->
+
             <div class="ticker">
                 <div class="ticker__wrapper">
                     <p class="ticker__text">

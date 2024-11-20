@@ -1,24 +1,26 @@
 .slider {
     position: relative;
+    margin-bottom: 15px;
 }
 .slider__track {
-    display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .slider__item {
     font-family: $font-secondary;
-    flex: 0 0 33.3333%;
-    box-sizing: border-box;
-    padding: 10px;
+    width: 100%;
 }
 
 .slider__controls {
+    width: 150px;
     position: absolute;
-    top: 50%;
-    width: 100%;
+    top: -93px;
+    right: 0;
+
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
@@ -28,12 +30,24 @@
     border: none;
     padding: 10px;
     cursor: pointer;
-}
-
-.slider__button--prev {
-    left: 10px;
+    font-size: 0;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: $black-color;
+    background-image: url("../../img/svg/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    &:hover {
+        background-color: $hover-color;
+    }
 }
 
 .slider__button--next {
-    right: 10px;
+    transform: rotate(180deg);
+}
+
+.slider__pagination {
+    font-family: $font-secondary;
+    align-self: center;
 }

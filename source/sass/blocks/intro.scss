@@ -21,6 +21,10 @@
 }
 
 .intro__title {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -32,11 +36,13 @@
         text-align: center;
     }
 }
+
 .intro__subtitle {
     text-align: center;
     font-family: $font-secondary;
     font-size: 18px;
 }
+
 .intro__buttons {
     margin-top: 38px;
     width: 100%;
@@ -52,7 +58,7 @@
         color: $white-color;
 
         &:hover {
-            background-color: red;
+            background-color: $hover-color;
         }
     }
 
@@ -64,6 +70,86 @@
         &:hover {
             background-color: $primary-color;
             color: $white-color;
+        }
+    }
+}
+@media (max-width: $breakpoint-tablet) {
+    .intro {
+        background-image: url("../img/intro_back_mobile_1x.png");
+        background-color: $background-color;
+
+        min-height: 774px;
+    }
+    .intro__logo {
+        svg {
+            width: 213px;
+            height: 32px;
+        }
+    }
+    .intro__text {
+        padding-top: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .intro__content {
+        width: 100%;
+    }
+
+    .intro__title {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-bottom: 20px;
+        font-size: 36px;
+        span {
+            line-height: 40px;
+            letter-spacing: 1.1px;
+        }
+        span:last-child {
+            text-align: center;
+        }
+    }
+    .intro__subtitle {
+        text-align: left;
+        line-height: 22px;
+        font-family: $font-secondary;
+        font-size: 18px;
+
+        & br {
+            display: none;
+        }
+    }
+    .intro__buttons {
+        margin-top: 34px;
+        width: 100%;
+        grid-template-columns: auto;
+        grid-gap: 13px;
+    }
+
+    .intro__button {
+        & br {
+            display: none;
+        }
+        font-family: $font-secondary;
+        &--primary {
+            background-color: $primary-color;
+            color: $white-color;
+            &:hover {
+                background-color: $hover-color;
+            }
+        }
+
+        &--secondary {
+            background-color: $white-color;
+            color: $primary-color;
+            border: none;
+
+            &:hover {
+                background-color: $primary-color;
+                color: $white-color;
+            }
         }
     }
 }
