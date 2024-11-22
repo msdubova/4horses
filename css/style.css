@@ -869,7 +869,9 @@
   .intro {
     background-image: url("../img/intro_back_mobile_1x.png");
     background-color: #e9ded4;
+    background-repeat: no-repeat;
     min-height: 774px;
+    background-size: cover;
   }
 
   .intro__logo svg {
