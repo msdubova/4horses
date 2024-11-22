@@ -561,7 +561,7 @@
   content: "";
   width: 377px;
   height: 140px;
-  background-image: url("../../img/plane_1x.png");
+  background-image: url("../img/plane_1x.png");
   left: 71%;
   top: 69.5%;
   overflow: visible;
@@ -625,7 +625,7 @@
   align-items: flex-start;
   padding: 20px;
   background-color: #f9f4e8;
-  background-image: url("../../img/grid_back.png");
+  background-image: url("../img/grid_back.png");
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: "Golos", Arial, Helvetica, sans-serif;
